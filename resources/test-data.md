@@ -1,29 +1,10 @@
 ---
 title: Test Data
-sidebar:
-  navigation:
-  - title: Resources
-    items:
-    - url: /resources/
-      title: Introduction
-    - url: /resources/test-data
-      title: Test Data
-    - url: /resources/demoshop
-      title: Demoshop
-    - url: /resources/development-guidelines
-      title: Open Source Development Guidelines
-    - url: /resources/release-notes
-      title: Release Notes
-    - url: /resources/terminology
-      title: Terminology
-    - url: /resources/data-protection
-      title: Data Protection
-    - url: /resources/public-migration-key
-      title: Public Migration Key
+estimated_read: 30
+description: |
+  Testing, are we? Good! Here's some data you can
+  use to test and verify your integration!
 ---
-
-{% include jumbotron.html body="Testing, are we? Good! Here's some data you can
-   use to test and verify your integration!" %}
 
 ## Swedbank Pay Checkout Test Data
 
@@ -84,8 +65,8 @@ To test a logged in user in the Demo Shop, please use the following test data:
 ### American Express
 
 {:.table .table-striped}
-| Card number       | Expiry                  | CVC   | Type of test data |
-| :---------------- | :---------------------- | :---- | :---------------- |
+| Card number       | Expiry                  | CVC    | Type of test data |
+| :---------------- | :---------------------- | :----- | :---------------- |
 | `377601000000000` | After the current month | `5252` | Amex & loopback   |
 
 ### JCB
@@ -131,7 +112,6 @@ To test a logged in user in the Demo Shop, please use the following test data:
 | Card number        | Expiry | CVC   | Type of test data |
 | :----------------- | :----- | :---- | :---------------- |
 | `6007220000000004` | 12/22  | `123` | Loopback only     |
-
 
 ## Failure Testing
 
